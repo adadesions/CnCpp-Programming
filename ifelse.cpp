@@ -19,7 +19,11 @@ int main() {
     printf("%s: ", name);
     scanf("%d", &age);
 
-    
+    if (age < 30) {
+        printf("AI: %d, You're too young!\n", age);
+    } else {
+        printf("AI: %d, You're so cool!!!!\n", age);
+    }
 
 
     return 0;
