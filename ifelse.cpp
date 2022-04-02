@@ -1,6 +1,7 @@
 #include "stdio.h"
 
-int main() {
+int main()
+{
     // Ask Name
     char name[128] = "";
     char strAns[500] = "";
@@ -19,12 +20,18 @@ int main() {
     printf("%s: ", name);
     scanf("%d", &age);
 
-    if (age < 30) {
+    if (age < 30)
+    {
         printf("AI: %d, You're too young!\n", age);
-    } else {
+    }
+    else if (age == 30)
+    {
+        printf("AI: %d, Life begin here!!\n", age);
+    }
+    else
+    {
         printf("AI: %d, You're so cool!!!!\n", age);
     }
-
 
     return 0;
 }
