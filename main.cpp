@@ -1,7 +1,7 @@
 #include "stdio.h"
 
 int main() {
-    printf("Ada");
+    printf("AdaBrain");
 
     return 0;
 }
